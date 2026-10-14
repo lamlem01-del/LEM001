@@ -82,6 +82,16 @@ def main():
 
     files = sorted(glob.glob(os.path.join(HERE, "[0-9][0-9]-*.md")))
     parts = [open(f, encoding="utf-8").read() for f in files]
+    # Thesis convention: each front-matter section (declaration, abstract,
+    # contents, ...) starts on its own page. Skip the YAML header block.
+    front = parts[0]
+    yaml_end = front.index("\n---\n", 4) + 5
+    parts[0] = front[:yaml_end] + front[yaml_end:].replace("\n---\n", PAGE_BREAK)
+    # Each appendix (separated by a rule) also starts on a new page.
+    parts = [
+        part.replace("\n---\n", PAGE_BREAK) if "appendices" in os.path.basename(f) else part
+        for f, part in zip(files, parts)
+    ]
     combined = PAGE_BREAK.join(parts)
 
     with tempfile.TemporaryDirectory() as tmp:

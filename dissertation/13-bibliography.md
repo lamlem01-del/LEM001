@@ -50,6 +50,7 @@
 
 - United Nations General Assembly. (1970). Declaration on Principles of International Law concerning Friendly Relations and Co-operation among States (Resolution 2625 (XXV)), 24 October 1970.
 - United Nations Security Council. (2000). Resolution 1325 on Women, Peace and Security, 31 October 2000.
+- International Committee of the Red Cross. (2020). *Commentary on the Third Geneva Convention: Convention (III) relative to the Treatment of Prisoners of War* (2nd ed.). Cambridge University Press.
 - UNESCO. (2003). Convention for the Safeguarding of the Intangible Cultural Heritage, Paris, 17 October 2003.
 
 ### ក.៤ ឯកសាររដ្ឋាភិបាល
@@ -91,6 +92,7 @@
 - Sil, R., & Katzenstein, P. J. (2010). *Beyond paradigms: Analytic eclecticism in the study of world politics*. Palgrave Macmillan.
 - Storey, I. (2011). *Southeast Asia and the rise of China: The search for security*. Routledge.
 - Strate, S. (2015). *The lost territories: Thailand's history of national humiliation*. University of Hawai'i Press.
+- Tetlock, P. E., & Belkin, A. (Eds.). (1996). *Counterfactual thought experiments in world politics: Logical, methodological, and psychological perspectives*. Princeton University Press.
 - Thongchai Winichakul. (1994). *Siam mapped: A history of the geo-body of a nation*. University of Hawai'i Press.
 - Toft, M. D. (2003). *The geography of ethnic violence: Identity, interests, and the indivisibility of territory*. Princeton University Press.
 - Van Evera, S. (1997). *Guide to methods for students of political science*. Cornell University Press.
@@ -105,6 +107,7 @@
 - Beardsley, K. (2011). *The mediation dilemma*. Cornell University Press.
 - Bercovitch, J. (Ed.). (1996). *Resolving international conflicts: The theory and practice of mediation*. Lynne Rienner.
 - Galtung, J. (1996). *Peace by peaceful means: Peace and conflict, development and civilization*. Sage.
+- Kahn, H. (1965). *On escalation: Metaphors and scenarios*. Praeger.
 - Lederach, J. P. (1997). *Building peace: Sustainable reconciliation in divided societies*. United States Institute of Peace Press.
 - Meskell, L. (2018). *A future in ruins: UNESCO, world heritage, and the dream of peace*. Oxford University Press.
 - Smith, L. (2006). *Uses of heritage*. Routledge.
@@ -124,10 +127,12 @@
 - Hensel, P. R. (2001). Contentious issues and world politics: The management of territorial claims in the Americas, 1816–1992. *International Studies Quarterly, 45*(1), 81–109.
 - Hensel, P. R., Mitchell, S. M., Sowers, T. E., & Thyne, C. L. (2008). Bones of contention: Comparing territorial, maritime, and river issues. *Journal of Conflict Resolution, 52*(1), 117–143.
 - Jones, D. M., & Smith, M. L. R. (2007). Making process, not progress: ASEAN and the evolving East Asian regional order. *International Security, 32*(1), 148–184.
+- Keohane, R. O. (1969). Lilliputians' dilemmas: Small states in international politics. *International Organization, 23*(2), 291–310.
 - Kuhonta, E. M. (2006). Walking a tightrope: Democracy versus sovereignty in ASEAN's illiberal peace. *The Pacific Review, 19*(3), 337–358.
 - Kuik, C.-C. (2008). The essence of hedging: Malaysia and Singapore's response to a rising China. *Contemporary Southeast Asia, 30*(2), 159–185.
 - Kuik, C.-C. (2016). How do weaker states hedge? Unpacking ASEAN states' alignment behavior towards China. *Journal of Contemporary China, 25*(100), 500–514.
 - Levy, J. S. (1989). The diversionary theory of war: A critique. In M. I. Midlarsky (Ed.), *Handbook of war studies* (pp. 259–288). Unwin Hyman.
+- Levy, J. S. (2008). Counterfactuals and case studies. In J. M. Box-Steffensmeier, H. E. Brady, & D. Collier (Eds.), *The Oxford handbook of political methodology* (pp. 627–644). Oxford University Press.
 - McCargo, D. (2005). Network monarchy and legitimacy crises in Thailand. *The Pacific Review, 18*(4), 499–519.
 - Mitchell, S. M., & Prins, B. C. (2004). Rivalry and diversionary uses of force. *Journal of Conflict Resolution, 48*(6), 937–961.
 - Patomäki, H., & Wight, C. (2000). After postpositivism? The promises of critical realism. *International Studies Quarterly, 44*(2), 213–237.
@@ -135,6 +140,7 @@
 - Putnam, R. D. (1988). Diplomacy and domestic politics: The logic of two-level games. *International Organization, 42*(3), 427–460.
 - Stedman, S. J. (1997). Spoiler problems in peace processes. *International Security, 22*(2), 5–53.
 - Tajfel, H., & Turner, J. C. (1979). An integrative theory of intergroup conflict. In W. G. Austin & S. Worchel (Eds.), *The social psychology of intergroup relations* (pp. 33–47). Brooks/Cole.
+- Thorhallsson, B. (2018). Studying small states: A review. *Small States & Territories, 1*(1), 17–34.
 - Wendt, A. (1992). Anarchy is what states make of it: The social construction of power politics. *International Organization, 46*(2), 391–425.
 - Zartman, I. W. (2000). Ripeness: The hurting stalemate and beyond. In P. C. Stern & D. Druckman (Eds.), *International conflict resolution after the Cold War* (pp. 225–250). National Academy Press.
 
