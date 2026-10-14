@@ -33,6 +33,9 @@
 - International Court of Justice. (2011). *Request for Interpretation of the Judgment of 15 June 1962 in the Case concerning the Temple of Preah Vihear (Cambodia v. Thailand), Provisional Measures, Order of 18 July 2011*. I.C.J. Reports 2011, p. 537.
 - International Court of Justice. (2013). *Request for Interpretation of the Judgment of 15 June 1962 in the Case concerning the Temple of Preah Vihear (Cambodia v. Thailand), Judgment of 11 November 2013*. I.C.J. Reports 2013, p. 281.
 
+- International Court of Justice. (1986). *Military and Paramilitary Activities in and against Nicaragua (Nicaragua v. United States of America), Merits, Judgment*. I.C.J. Reports 1986, p. 14.
+- International Court of Justice. (2003). *Oil Platforms (Islamic Republic of Iran v. United States of America), Judgment*. I.C.J. Reports 2003, p. 161.
+
 ### ក.៣ ឯកសារអង្គការអន្តរជាតិ និងតំបន់
 
 - UNESCO World Heritage Committee. (2007). Decision 31 COM 8B.24 (Sacred Site of the Temple of Preah Vihear). 31st Session, Christchurch.
@@ -44,6 +47,10 @@
 - Joint Declaration by the Prime Minister of the Kingdom of Cambodia and the Prime Minister of the Kingdom of Thailand ("Kuala Lumpur Peace Accord"), Kuala Lumpur, 26 October 2025. *(ត្រូវផ្ទៀងផ្ទាត់ចំណងជើងផ្លូវការ)*
 - Eritrea–Ethiopia Boundary Commission. (2002). Decision Regarding Delimitation of the Border between the State of Eritrea and the Federal Democratic Republic of Ethiopia, 13 April 2002.
 - Presidential Act of Brasília (Ecuador–Peru), 26 October 1998.
+
+- United Nations General Assembly. (1970). Declaration on Principles of International Law concerning Friendly Relations and Co-operation among States (Resolution 2625 (XXV)), 24 October 1970.
+- United Nations Security Council. (2000). Resolution 1325 on Women, Peace and Security, 31 October 2000.
+- UNESCO. (2003). Convention for the Safeguarding of the Intangible Cultural Heritage, Paris, 17 October 2003.
 
 ### ក.៤ ឯកសាររដ្ឋាភិបាល
 
@@ -95,6 +102,14 @@
 - Yin, R. K. (2018). *Case study research and applications: Design and methods* (6th ed.). Sage.
 - Zartman, I. W. (1989). *Ripe for resolution: Conflict and intervention in Africa* (2nd ed.). Oxford University Press.
 
+- Beardsley, K. (2011). *The mediation dilemma*. Cornell University Press.
+- Bercovitch, J. (Ed.). (1996). *Resolving international conflicts: The theory and practice of mediation*. Lynne Rienner.
+- Galtung, J. (1996). *Peace by peaceful means: Peace and conflict, development and civilization*. Sage.
+- Lederach, J. P. (1997). *Building peace: Sustainable reconciliation in divided societies*. United States Institute of Peace Press.
+- Meskell, L. (2018). *A future in ruins: UNESCO, world heritage, and the dream of peace*. Oxford University Press.
+- Smith, L. (2006). *Uses of heritage*. Routledge.
+- Touval, S., & Zartman, I. W. (Eds.). (1985). *International mediation in theory and practice*. Westview Press.
+
 ## គ. អត្ថបទទស្សនាវដ្តី និងជំពូកសៀវភៅ
 
 - Allee, T. L., & Huth, P. K. (2006). Legitimizing dispute settlement: International legal rulings as domestic political cover. *American Political Science Review, 100*(2), 219–234.
@@ -121,6 +136,10 @@
 - Tajfel, H., & Turner, J. C. (1979). An integrative theory of intergroup conflict. In W. G. Austin & S. Worchel (Eds.), *The social psychology of intergroup relations* (pp. 33–47). Brooks/Cole.
 - Wendt, A. (1992). Anarchy is what states make of it: The social construction of power politics. *International Organization, 46*(2), 391–425.
 - Zartman, I. W. (2000). Ripeness: The hurting stalemate and beyond. In P. C. Stern & D. Druckman (Eds.), *International conflict resolution after the Cold War* (pp. 225–250). National Academy Press.
+
+- Baud, M., & van Schendel, W. (1997). Toward a comparative history of borderlands. *Journal of World History, 8*(2), 211–242.
+- Newman, D., & Paasi, A. (1998). Fences and neighbours in the postmodern world: Boundary narratives in political geography. *Progress in Human Geography, 22*(2), 186–207.
+- Winter, T. (2015). Heritage diplomacy. *International Journal of Heritage Studies, 21*(10), 997–1015.
 
 ## ឃ. របាយការណ៍ និងប្រភពស្ថិតិ
 
