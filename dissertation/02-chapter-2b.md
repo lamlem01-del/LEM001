@@ -76,7 +76,7 @@ ICJ មានយុត្តាធិការលើវិវាទ តែក្
 - **Puangthong Rungswasdisab Pawakapan (2013)**, *State and Uncivil Society in Thailand at the Temple of Preah Vihear* (ISEAS)។ ស្នាដៃនេះ វិភាគពីរបៀបដែលក្រុមជាតិនិយមថៃ និងស្ថាប័នរដ្ឋ ("សង្គមស៊ីវិលមិនស៊ីវិល") បានប្រើប្រាស់បញ្ហាព្រះវិហារ ក្នុងការប្រកួតប្រជែងនយោបាយក្នុងស្រុក។ អ្នកនិពន្ធ ជាអ្នកប្រាជ្ញថៃ បានរិះគន់យ៉ាងខ្លាំងចំពោះនិទានកថា "ការបាត់បង់ទឹកដី"។
 - **John Burgess (2015)**, *Temple in the Clouds: Faith and Conflict at Preah Vihear* (River Books)។ ស្នាដៃបែបសារព័ត៌មាន-ប្រវត្តិសាស្ត្រ ដែលរៀបរាប់ពីប្រវត្តិរបស់ប្រាសាទ ចាប់ពីការសាងសង់ រហូតដល់ជម្លោះសម័យទំនើប។
 - **Charnvit Kasetsiri, Pou Sothirak និង Pavin Chachavalpongpun (eds.) (2013)**, *Preah Vihear: A Guide to the Thai-Cambodian Conflict and Its Solutions* (White Lotus)។ ស្នាដៃរួមរបស់អ្នកប្រាជ្ញថៃ និងកម្ពុជា ដែលផ្តល់ទស្សនៈតុល្យភាព និងដំណោះស្រាយដែលអាចធ្វើបាន។
-- **Pavin Chachavalpongpun (2010; 2012)** — ការសិក្សាអំពីការប្រើប្រាស់នយោបាយការបរទេសថៃ ជាឧបករណ៍ក្នុងការប្រកួតប្រជែងក្នុងស្រុក និងគំនិតអំពី "ការទូតដែលធ្វើឱ្យជាតិនិយម" (nationalist diplomacy)។
+- **Pavin Chachavalpongpun (2010a; 2010b)** — ការសិក្សាអំពីការប្រើប្រាស់នយោបាយការបរទេសថៃ ជាឧបករណ៍ក្នុងការប្រកួតប្រជែងក្នុងស្រុក និងគំនិតអំពី "ការទូតដែលធ្វើឱ្យជាតិនិយម" (nationalist diplomacy)។
 - **Shane Strate (2015)**, *The Lost Territories: Thailand's History of National Humiliation* (University of Hawai'i Press)។ ស្នាដៃនេះ តាមដានពីរបៀបដែលនិទានកថា "ការអាម៉ាស់ជាតិ" ត្រូវបានបង្កើត និងប្រើប្រាស់ ដោយរដ្ឋថៃ ចាប់តាំងពីទសវត្សរ៍ឆ្នាំ១៩៣០។
 - **David Chandler (2008)**, *A History of Cambodia* (4th ed., Westview)។ ការសិក្សាមូលដ្ឋានអំពីប្រវត្តិសាស្ត្រកម្ពុជា រួមទាំងទំនាក់ទំនងជាមួយសៀម។
 - **Ian Storey (2011)**, *Southeast Asia and the Rise of China* និងការវិភាគជាច្រើនរបស់គាត់អំពីសន្តិសុខតំបន់។
