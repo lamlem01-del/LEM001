@@ -132,6 +132,7 @@
 - Mitchell, S. M., & Prins, B. C. (2004). Rivalry and diversionary uses of force. *Journal of Conflict Resolution, 48*(6), 937–961.
 - Patomäki, H., & Wight, C. (2000). After postpositivism? The promises of critical realism. *International Studies Quarterly, 44*(2), 213–237.
 - Pickering, J., & Kisangani, E. F. (2005). Democracy and diversionary military intervention: Reassessing regime type and the diversionary hypothesis. *International Studies Quarterly, 49*(1), 23–43.
+- Putnam, R. D. (1988). Diplomacy and domestic politics: The logic of two-level games. *International Organization, 42*(3), 427–460.
 - Stedman, S. J. (1997). Spoiler problems in peace processes. *International Security, 22*(2), 5–53.
 - Tajfel, H., & Turner, J. C. (1979). An integrative theory of intergroup conflict. In W. G. Austin & S. Worchel (Eds.), *The social psychology of intergroup relations* (pp. 33–47). Brooks/Cole.
 - Wendt, A. (1992). Anarchy is what states make of it: The social construction of power politics. *International Organization, 46*(2), 391–425.
