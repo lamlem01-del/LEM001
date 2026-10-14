@@ -1,7 +1,7 @@
 # ជម្លោះព្រំដែនកម្ពុជា–ថៃ ក្នុងសតវត្សរ៍ទី២១ (និក្ខេបបទបណ្ឌិត — សេចក្តីព្រាង)
 
 - `dissertation.docx` — ឯកសារ Word ពេញលេញ (ពុម្ពអក្សរ Khmer OS Siemreap ១២pt, A4, គម្លាតបន្ទាត់ ១.៥)
-- `dissertation-preview.pdf` — PDF មើលជាមុន (បង្ហាញជាមួយពុម្ពអក្សរ Noto Serif Khmer, ~៣០៤ ទំព័រ)
+- `dissertation-preview.pdf` — PDF មើលជាមុន (បង្ហាញជាមួយពុម្ពអក្សរ Noto Serif Khmer, ~៣១៤ ទំព័រ)
 - `00-…md` ដល់ `15-…md` — អត្ថបទប្រភពតាមជំពូក (Markdown)
 - `build.py` — បង្កើត .docx ឡើងវិញ៖ `python3 build.py` (ត្រូវការ pandoc និង python-docx)
 
