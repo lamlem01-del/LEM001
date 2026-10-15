@@ -80,10 +80,10 @@ def roster():
         return
     pick = [0, 1, 2, 4, 5, 9, 11]
     body = [[cell(r[i], 90) for i in pick if i < len(r)] for r in b]
-    text = (f"## ឧបសម្ព័ន្ធ ក៖ បញ្ជីអ្នកដឹកនាំ កំណែ ២ ({km(len(b))} ជួរ)\n\n"
+    text = (f"## តារាងបញ្ជីអ្នកដឹកនាំ កំណែ ២ ({km(len(b))} ជួរ)\n\n"
             "តារាងពេញ (ឈ្មោះផ្សេងៗ កាលបរិច្ឆេទ ភាពមិនស៊ីគ្នា ទីតាំង) មាននៅ `data/leader-roster-v2.csv`។\n\n"
             + table([h[i] for i in pick if i < len(h)], body))
-    open(os.path.join(OUT, "12-appendix-roster.md"), "w", encoding="utf-8").write(text)
+    open(os.path.join(OUT, "11b-roster-table.md"), "w", encoding="utf-8").write(text)
 
 
 def stats():

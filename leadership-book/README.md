@@ -1,4 +1,4 @@
-# សៀវភៅ «ចរិត និងមរតកវប្បធម៌នៃការដឹកនាំខ្មែរ» — ដំណាក់កាលទី១
+# សៀវភៅ «បារមី និងទំនួលខុសត្រូវ» — គម្រោង (ដំណាក់កាលទី១–២)
 
 គម្រោងសៀវភៅនេះគឺជាដំណាក់កាលរៀបចំផែនការ (Phase 1) ដែលធ្វើតាម `../prompts/Claude-Prompt-Complete-Khmer-v2.txt`។ **មិនទាន់មានខ្លឹមសារសៀវភៅទេ** — ការសរសេរនឹងចាប់ផ្តើមតែក្រោយពេលអ្នកនិពន្ធយល់ព្រមលើគម្រោង។
 
@@ -6,6 +6,11 @@
 
 | ផ្លូវ | ខ្លឹមសារ |
 |---|---|
+| `phase2-report.docx` / `phase2-report-preview.pdf` | របាយការណ៍ដំណាក់កាលទី២៖ ការអានពេញ ការផ្ទៀងផ្ទាត់ប្រភព មាតិកាកំណែ ០.២ |
+| `phase2/notes/G1–G8.md` | កំណត់ត្រាអានគ្រប់កថាខណ្ឌ S01–S41 |
+| `phase2/source-critique.md`, `case-revision.md`, `roster-changes.md` | ការរិះគន់ប្រភព ការកែករណី ការកែបញ្ជីអ្នកដឹកនាំ |
+| `phase2/verification/` | លទ្ធផលផ្ទៀងផ្ទាត់ប្រភព និងអត្តសញ្ញាណឯកសារគោល |
+| `data/*-v2.csv`, `chronicle-events.csv`, `chronology-by-document.csv`, `date-problems.csv` | តារាងកំណែ ២ (តារាង v1 រក្សាទុកជាកំណត់ត្រាដំណាក់កាលទី១) |
 | `phase1-plan.docx` | របាយការណ៍ដំណាក់កាលទី១ (Word; Khmer OS Siemreap / Khmer OS Muol Light) |
 | `phase1-plan-preview.pdf` | ការមើលជាមុនជា PDF (បង្កើតដោយពុម្ព Siemreap/Moul ពី Google Fonts) |
 | `phase1/*.md` | អត្ថបទប្រភពនៃរបាយការណ៍ (លំដាប់ ១–១២ តាមផ្នែក ១៣ របស់ Prompt) |
@@ -28,4 +33,8 @@ pandoc source.docx -t markdown -o source.md
 python3 -I tools/count_source_words.py source.md > tools/source_sections.json
 python3 tools/make_data.py
 python3 build.py                         # ឬ --font Siemreap --heading-font Moul
+python3 tools/compile_notes.py           # phase2/notes → chronicle-events.csv
+python3 tools/merge_verification.py      # → u300-audit-v2.csv, a-candidates-v2.csv
+python3 tools/make_phase2_tables.py
+python3 build.py --phase 2
 ```

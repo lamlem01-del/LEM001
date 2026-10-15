@@ -28,6 +28,7 @@ HEADING_STYLES = ("Title", "Subtitle", "Heading1", "Heading2")
 PHASE2_INCLUDES = [
     ("03-source-critique.md", "phase2/source-critique.md", "៣. ការរិះគន់ប្រភព"),
     ("05-case-revision.md", "phase2/case-revision.md", "៥. ការកែសម្រួលករណីសិក្សា"),
+    ("11-roster-changes.md", "phase2/roster-changes.md", "ឧបសម្ព័ន្ធ ក៖ បញ្ជីអ្នកដឹកនាំ កំណែ ២"),
 ]
 
 
