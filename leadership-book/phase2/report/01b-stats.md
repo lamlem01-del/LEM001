@@ -1,0 +1,22 @@
+## ១.៣ លទ្ធផលជាលេខ
+
+- ព្រឹត្តិការណ៍ដែលកត់ត្រា៖ **៦១៤** (`data/chronicle-events.csv`)
+  - decision៖ ១៨១
+  - religious៖ ៦៤
+  - battle៖ ៦៣
+  - event៖ ៥៦
+  - succession៖ ៤៦
+  - diplomacy៖ ៤៦
+  - other៖ ៤១
+  - appointment៖ ៤០
+  - death៖ ៣៨
+  - prophecy៖ ២២
+  - date៖ ១៧
+- បញ្ហាកាលបរិច្ឆេទ និងតួលេខដែលកត់ត្រា៖ **១០៨** (`data/date-problems.csv`)
+  - សករាជ៖ ២៧
+  - លំដាប់៖ ២២
+  - រជ្ជកាល៖ ១៦
+  - ឆ្នាំសត្វ៖ ១៥
+  - អាយុ៖ ១១
+  - តួលេខ៖ ១១
+  - ចំណងជើង៖ ៦
