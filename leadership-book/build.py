@@ -6,6 +6,7 @@ the book prompt asks for: body Khmer OS Siemreap 12pt, headings Khmer OS Muol Li
 
 Usage:
     python3 build.py                                   # phase1-plan.docx
+    python3 build.py --phase 2                         # phase2-report.docx
     python3 build.py --font Siemreap --heading-font Moul --out preview.docx
 """
 import argparse
@@ -24,6 +25,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(HERE), "dissertation"))
 import build as base  # noqa: E402
 
 HEADING_STYLES = ("Title", "Subtitle", "Heading1", "Heading2")
+PHASE2_INCLUDES = [
+    ("03-source-critique.md", "phase2/source-critique.md", "៣. ការរិះគន់ប្រភព"),
+    ("05-case-revision.md", "phase2/case-revision.md", "៥. ការកែសម្រួលករណីសិក្សា"),
+]
 
 
 def make_reference(path, body_font, heading_font):
@@ -80,18 +85,27 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--font", default="Khmer OS Siemreap")
     ap.add_argument("--heading-font", default="Khmer OS Muol Light")
-    ap.add_argument("--out", default=os.path.join(HERE, "phase1-plan.docx"))
+    ap.add_argument("--phase", type=int, choices=(1, 2), default=1)
+    ap.add_argument("--out")
     args = ap.parse_args()
+    out = args.out or os.path.join(HERE, f"phase{args.phase}-{'plan' if args.phase == 1 else 'report'}.docx")
 
-    files = sorted(glob.glob(os.path.join(HERE, "phase1", "*.md")))
-    parts = [open(f, encoding="utf-8").read() for f in files]
+    folder = "phase1" if args.phase == 1 else os.path.join("phase2", "report")
+    named = {os.path.basename(f): open(f, encoding="utf-8").read()
+             for f in glob.glob(os.path.join(HERE, folder, "*.md"))}
+    if args.phase == 2:
+        # Agent-written analyses are included whole, under the report's section number.
+        for name, path, title in PHASE2_INCLUDES:
+            text = open(os.path.join(HERE, path), encoding="utf-8").read()
+            named[name] = re.sub(r"^# .*$", f"# {title}", text, count=1, flags=re.M)
+    names = sorted(named)
+    parts = [named[n] for n in names]
     # Front matter: each block separated by a rule starts on its own page.
     parts[0] = parts[0].replace("\n---\n", base.PAGE_BREAK)
-    # Generated tables (08b, 09b, 09c) continue their section; everything else
+    # Generated tables (e.g. 08b, 09b) continue their section; everything else
     # starts a new page.
     combined = parts[0]
-    for f, part in zip(files[1:], parts[1:]):
-        name = os.path.basename(f)
+    for name, part in zip(names[1:], parts[1:]):
         sep = "\n\n" if name[2:3] in ("b", "c") else base.PAGE_BREAK
         combined += sep + part
 
@@ -103,11 +117,11 @@ def main():
         make_reference(ref, args.font, args.heading_font)
         subprocess.run(
             ["pandoc", src, "-f", "markdown+raw_attribute-yaml_metadata_block",
-             "-o", args.out, "--reference-doc", ref, "--metadata", "lang=km-KH"],
+             "-o", out, "--reference-doc", ref, "--metadata", "lang=km-KH"],
             check=True,
         )
-    base.postprocess(args.out)
-    print("wrote", args.out)
+    base.postprocess(out)
+    print("wrote", out)
 
 
 if __name__ == "__main__":

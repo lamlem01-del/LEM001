@@ -48,7 +48,7 @@ def sources():
     body = [[i["id"], i["verified_title"], i.get("authors_editors", ""), i.get("year_first", ""),
              cell(i.get("publisher_or_journal", ""), 80), i.get("status", "")] for i in core]
     status = Counter(i.get("status", "") for i in items)
-    text = ("## ៦.២ តារាងប្រភពដែលបានផ្ទៀងផ្ទាត់ព័ត៌មានគន្ថនិទ្ទេស\n\n"
+    text = ("## ៦.៤ តារាងប្រភពដែលបានផ្ទៀងផ្ទាត់ព័ត៌មានគន្ថនិទ្ទេស\n\n"
             f"ធាតុដែលបានពិនិត្យសរុប៖ {km(len(items))} "
             f"(បានផ្ទៀងផ្ទាត់ {km(status['បានផ្ទៀងផ្ទាត់'])}, ផ្នែកខ្លះ {km(status['ផ្ទៀងផ្ទាត់ផ្នែកខ្លះ'])}, "
             f"មិនទាន់រកឃើញ {km(status['មិនទាន់រកឃើញកំណត់ត្រាផ្ទៀងផ្ទាត់'])})។ "
@@ -65,12 +65,12 @@ def cases():
     want = ["លេខ", "ចំណងជើងករណី", "ផ្នែក និង ¶ សំខាន់", "កម្រិតភស្តុតាងបឋម", "លទ្ធផល", "ជំពូកដាក់"]
     idx = [h.index(c) for c in want]
     body = [[r[i] for i in idx] for r in b]
-    text = "## ៥.២ តារាងករណីស៊ីជម្រៅ កំណែ ២\n\n" + table(want, body)
+    text = "## តារាងករណីស៊ីជម្រៅ កំណែ ២\n\n" + table(want, body)
     hs, bs = rows("short-cases-v2.csv")
     if hs:
         want_s = ["លេខ", "ករណី", "ផ្នែក និង ¶", "ជំពូក"]
         idx_s = [hs.index(c) for c in want_s]
-        text += "\n## ៥.៣ តារាងករណីខ្លី កំណែ ២\n\n" + table(want_s, [[r[i] for i in idx_s] for r in bs])
+        text += "\n## តារាងករណីខ្លី កំណែ ២\n\n" + table(want_s, [[r[i] for i in idx_s] for r in bs])
     open(os.path.join(OUT, "05b-cases-table.md"), "w", encoding="utf-8").write(text)
 
 
@@ -91,7 +91,7 @@ def stats():
     _, dp = rows("date-problems.csv")
     types = Counter(r[1] for r in ev)
     dtypes = Counter(r[1] for r in dp) if dp else Counter()
-    text = ("## ១.៣ លទ្ធផលជាលេខ\n\n"
+    text = ("## ១.៤ លទ្ធផលជាលេខ\n\n"
             f"- ព្រឹត្តិការណ៍ដែលកត់ត្រា៖ **{km(len(ev))}** (`data/chronicle-events.csv`)\n"
             + "".join(f"  - {t}៖ {km(n)}\n" for t, n in types.most_common())
             + (f"- បញ្ហាកាលបរិច្ឆេទ និងតួលេខដែលកត់ត្រា៖ **{km(len(dp))}** (`data/date-problems.csv`)\n"
